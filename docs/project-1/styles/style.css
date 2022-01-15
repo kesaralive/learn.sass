@@ -1,36 +1,32 @@
-header,
-.contact {
+header, .contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: #d3a6a6;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
   height: 100vh;
   color: #2e2828;
 }
 
-header button,
-.contact button {
+header button, .contact button {
   background: #285cce;
 }
 
-header button::after,
-.contact button::after {
+header button::after, .contact button::after {
   content: "Hello World";
 }
 
-header p,
-.contact p {
+header p, .contact p {
   color: brown;
 }
 
